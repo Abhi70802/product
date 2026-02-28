@@ -1,0 +1,16 @@
+{
+  "customer_profile": {
+    "risk_category": "Medium",
+    "kyc_status": "Completed",
+    "account_age_months": 14
+  },
+  "alert": {
+    "alert_type": "High Velocity Transactions",
+    "triggered_rules": ["R-102", "R-311"]
+  },
+  "transactions": [
+    {"amount": 98000, "type": "credit", "channel": "UPI"},
+    {"amount": 97000, "type": "credit", "channel": "UPI"},
+    {"amount": 99000, "type": "credit", "channel": "UPI"}
+  ]
+}

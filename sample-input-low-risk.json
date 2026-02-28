@@ -1,0 +1,14 @@
+{
+  "customer_profile": {
+    "risk_category": "Low",
+    "kyc_status": "Completed",
+    "account_age_months": 30
+  },
+  "alert": {
+    "alert_type": "Single Large Payment",
+    "triggered_rules": ["R-015"]
+  },
+  "transactions": [
+    {"amount": 45000, "type": "debit", "channel": "NEFT", "timestamp": "2026-02-01T10:00:00Z"}
+  ]
+}
